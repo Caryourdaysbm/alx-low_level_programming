@@ -29,7 +29,7 @@ lenght++;
 res_write = write(fd, text_content, lenght);
 if (res_write == -1)
 {
-write(1, ""fails", 6);
+write(1, "fails", 6);
 return (-1);
 }
 }
